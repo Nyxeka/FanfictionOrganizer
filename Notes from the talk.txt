@@ -1,0 +1,46 @@
+
+notes from the talk:
+
+input fanfiction folder
+Destination Hierarchy of folders.
+---------------
+Hierarchy
+---------------
+Need a way to sort the fanfiction
+-Fandom
+-Author
+-Category (time travel, redo, post ootp etc...) just a string
+-Dates - update date, download date, publish date - When the author was last active
+-Sequels->Some kind of pointer to stories that are related either as sequels or the same story or whatever
+-word count
+-review count
+-favourites
+-follows
+-hits
+-chapter count
+-Summary
+-A version with and without authors notes, or addendum to story with links in chapter to the notes.
+-Library with grammar score?
+-Personal rating
+-tags
+-story id/url
+-----------------------------------------------
+User Interface
+-----------------------
+-Get things done quickly
+-Keyboard shortcuts that make sense
+-Categorizing new stories (automatic categorization?)
+-Store metadata information in the epubs themselves
+-diffs between local and phone library
+-rescan/check for updates
+-Process a collection of uncategorized stories
+-Tree directory structure
+-Look at incoming stories or existing stories(two tabs dockable?) or just two buttons to swap between
+
+---------------------------------
+epub analyzer
+- look at a file, categorize it
+- summary page if exists replace with our own (like what flag used to generate)
+- Fandom book cover if none.
+- Option for custom book cover
+- Create epub file from story data
