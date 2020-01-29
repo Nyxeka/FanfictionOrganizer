@@ -1,5 +1,11 @@
+'''Holds the story class and some epub structure information'''
+
+
 class Story:
+    '''Handles interfacing with epub files'''
+
     __init__(self):
+        '''Initialize story parameters'''
         self.title = ""
         self.author = ""
         self.summary = ""
@@ -18,3 +24,6 @@ class Story:
         self.rating = 0
         self.comments = ""
 
+    def load_story(self, path):
+        '''[to-do] parses epub file into story'''
+        pass
