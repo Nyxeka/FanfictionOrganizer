@@ -39,5 +39,6 @@ class Story:
         print(origin)
     
     def _open_epub(self, path):
+        '''This will open the book into memory from disk.'''
         book = ZipFile(path)
         return {name: book.read(name) for name in book.namelist()}

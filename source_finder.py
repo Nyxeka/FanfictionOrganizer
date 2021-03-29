@@ -3,7 +3,7 @@ from enum import Enum
 
 class common():
     class source(Enum):
-        us=0        # this app made it
+        unknown=0   # this app made it
         ficsave=1   # http://ficsave.xyz/
         flagfic=2   # https://flagfic.net/
         ao3=3       # https://archiveofourown.org/
@@ -11,7 +11,7 @@ class common():
         ff2ebook=5  # http://ff2ebook.com/
         ficlab=6    # https://www.ficlab.com/
         custom=7    # Another app we made, some other extractor
-        unknown=8   # ?
+        fuchub=8    # https://fichub.net/
 
 # static
 class SourceFinder():
