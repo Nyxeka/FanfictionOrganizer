@@ -3,11 +3,10 @@ from enum import Enum
 
 class common():
     class source(Enum):
-        unknown=0   # this app made it
+        unknown=0
         ficsave=1   # http://ficsave.xyz/
         flagfic=2   # https://flagfic.net/
         ao3=3       # https://archiveofourown.org/
-        forum=4     # e.g. https://forums.spacebattles.com/, https://forums.darklordpotter.net/
         ff2ebook=5  # http://ff2ebook.com/
         ficlab=6    # https://www.ficlab.com/
         custom=7    # Another app we made, some other extractor
