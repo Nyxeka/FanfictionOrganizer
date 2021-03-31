@@ -1,0 +1,13 @@
+# some likely build/data/cache folders:
+[Ee]pubs/
+[Bb]uild/
+[Dd]ist/
+[Ll]ibrary/
+[Rr]esult[s]*/
+[Cc]ache/
+
+# IDE stuff
+.vs/
+.vscode/
+*.iml
+.idea/
